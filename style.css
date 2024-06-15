@@ -14,17 +14,6 @@ body {
   background-color: #ffc400;
 }
 
-.container {
-  background: url("bg.png") center center / 100% no-repeat;
-  height: 50%;
-  width: 50%;
-  /* padding-bottom: 5rem; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
 h1 {
   color: #d72638;
   font-family: "Permanent Marker", cursive;
@@ -45,4 +34,16 @@ a:hover {
 .link-container {
   display: flex;
   gap: 2rem;
+}
+
+@media (max-width: 767px) {
+  h1 {
+    text-align: center;
+    line-height: 3.5rem;
+  }
+
+  .link-container {
+    margin-top: 1rem;
+    gap: 2rem;
+  }
 }
