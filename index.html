@@ -9,17 +9,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title></title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
     <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <p class="browsehappy">
+            You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.
+        </p>
     <![endif]-->
-    <h1> CORY HAYES </h1>
-    <div class="link-container">
-      <h3><a href="https://www.linkedin.com/in/corymhayes/" target="_blank">linkedin</a></h3>
-      <h3><a href="https://github.com/corymhayes" target="_blank">github</a></h3>
-    </div>
+    <main>
+        <section>
+            <header>
+                <img src="images/brush-stroke-banner-6.svg" class="brush-stroke" />
+                <h1>Hello, I'm Cory</h1>
+            </header>
+            <p>
+                I like to create things that focus on minimalism in both the design and in the interactions. With the hopes that it will not only make the user
+                more productive, but be an enjoyable experience as well.
+            </p>
+        </section>
+        
+        <section>
+            <header>
+                <img src="images/brush-stroke-banner-6.svg" class="brush-stroke" />
+                <h1>Projects</h1>
+            </header>
+
+            <a class="project-container" href="https://tablaturedb.com" target="_blank">
+                <h5>tablaturedDB</h5>
+                <p>
+                    An easy to use, local-first application to store tablatures. Created using Svelte, Dexie, shadcn-svelte, and tailwind.
+                </p>
+            </a>
+            
+            <a class="project-container" href="https://exercise-planner.corymhayes.com/" target="_blank">
+                <h5>Run Planner</h5>
+                <p>
+                    Local-first application that will let you create various runs and then use those to create a weekly plan. Created using Svelte, Dexie, shadcn-svelte, and tailwind.
+                </p>
+            </a>
+        </section>
+
+        <section id="contacts">
+            <header>
+                <img src="images/brush-stroke-banner-6.svg" class="brush-stroke" />
+                <h1>Contacts</h1>
+            </header>
+
+            <div class="link-container">
+                <a href="https://www.linkedin.com/in/corymhayes/" target="_blank">
+                    <img src="images/linkedin-logo.svg" class="social-icons" />
+                    linkedin
+                </a>
+                <a href="https://github.com/corymhayes" target="_blank">
+                    <img src="images/github-logo.svg" class="social-icons" />
+                    github
+                </a>
+                <a href="https://read.cv/corymhayes" target="_blank">
+                    <img src="images/read-cv-logo.svg" class="social-icons" />
+                    readcv
+                </a>
+            </div>
+        </section>
+    </main>
   </body>
 </html>
